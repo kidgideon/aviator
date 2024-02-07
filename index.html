@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aviator Simulator</title>
+</head>
+<body> 
+     <div class="overlay">
+        <div class="user-bal">
+            <div class="area"></div>
+            <div class="touch"> BALANCE </div> 
+             <span>NGN</span>
+             <div class="bal touch"></div>
+        </div>
+         <div class="acc-stat">
+
+         </div>
+              
+        <div class="container">
+                 <div class="Aviator">
+                 </div>
+              </div>
+       
+            <div class="stake-area">
+            <div class="zone-1">
+               <div class="showvalue"></div>
+               <button class="btn" onclick="
+                const add = 'add';
+               setStakeValue(add)">+</button>
+               <button class="btn"
+               onclick="
+                const minus = 'minus';
+               setStakeValue(minus)">-</button>
+            </div>
+              <div class="zone-2">
+                <button onclick="start()" class="strt">start game</button>
+              </div>
+             </div>
+       
+            </div>
+
+     <script src="script.js"></script>
+</body>
+</html>

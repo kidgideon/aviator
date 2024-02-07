@@ -1,0 +1,246 @@
+  
+   body {
+     font-family: sans-serif;
+     background-color: black;
+     padding: 0px;
+     margin:  0px;
+   }
+
+    .overlay {
+      width: 100%;
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr ;
+      justify-content: center;
+      align-items: center;
+   
+    }
+
+
+    .user-bal {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: row;
+         color: white;
+         height: 100%;
+    }
+
+    .touch {
+         border:  1px solid black;
+         padding: 10px;
+         margin: 10px;
+         background-color: rgb(13, 13, 124);
+         border-radius: 5px;
+         font-weight: bold;
+    }
+
+    .user-bal span {
+         color: green;
+         font-weight: bold;
+    }
+ 
+ .container {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+.Aviator {
+     width:  400px;
+     height: 300px;
+     border: 10px dashed rgb(13, 13, 124);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: blue;
+     font-size: 60px;
+  }
+
+  .stake-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+     gap: 10px;
+  }
+
+  .stake-area div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .stake-area div div {
+     border: 2px solid ;
+     color: white;
+     font-weight: bold;
+     background-color:  rgb(13, 13, 124);
+     padding: 20px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+  }
+
+  .zone-1 button {
+    width: 50px;
+    height: 50px;
+     border: none;
+     border-radius: 50%;
+     font-weight: bold;
+     font-size: 20px;
+     background-color: rgb(13, 13, 124);
+     color: white;
+  }
+
+ .strt {
+     padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(13, 13, 124);
+    color: white;
+    font-size: 20px;
+ }
+
+ .cashout {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+ }
+
+ .cashout-popup {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 60px;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-size: 20px;
+     color: blue;
+     font-weight: bold;
+     background-color: white;
+     visibility: hidden;
+ }
+
+ .congrats {
+     font-size: 20px;
+     color: gold;
+     font-weight: bold;
+ }
+
+ .endgame {
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+ }
+
+ .acc-stat {
+     text-align:  center;
+     font-weight: bold;
+     color: white;
+ }
+
+ .area {
+     background-color: black;
+ }
+
+  .light {
+     padding: 10px;
+     border-radius: 2px;
+     border: none;
+     background-color: blueviolet;
+     color: white;
+     font-weight: bold;
+  }
+
+  .dark {
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+  }
+
+  @Media screen and (max-width: 500px) and (min-width: 100px) {
+
+   .Aviator {
+      width:  80%;
+      height: 200px;
+      border: 10px dashed rgb(13, 13, 124);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: blue;
+      font-size: 60px;
+   }
+
+    .cashout {
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      font-weight: bold;
+      border: none;
+      background-color: orange;
+      color: white;
+      font-size: 20px;
+   }
+
+   .strt {
+      padding: 15px 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+     font-weight: bold;
+     border: none;
+     background-color: rgb(13, 13, 124);
+     color: white;
+     font-size: 20px;
+  }
+
+  
+ .endgame {
+   padding: 15px 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   font-weight: bold;
+   border: none;
+   background-color: red;
+   color: white;
+   font-size: 20px;
+}
+
+ 
+  }
